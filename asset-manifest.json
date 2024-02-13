@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/WeddingPage/static/css/main.417e4aa4.css",
+    "main.js": "/WeddingPage/static/js/main.46c95255.js",
+    "static/js/787.6099e038.chunk.js": "/WeddingPage/static/js/787.6099e038.chunk.js",
+    "static/media/6.jpg": "/WeddingPage/static/media/6.443040fe88066944c827.jpg",
+    "static/media/4.jpg": "/WeddingPage/static/media/4.88a98c5f38d01ec56cd6.jpg",
+    "static/media/kiss.png": "/WeddingPage/static/media/kiss.7bd6d93564755f7efb67.png",
+    "static/media/3.jpg": "/WeddingPage/static/media/3.bd7b7c56bb8618ec9f45.jpg",
+    "static/media/Lukasz.jpg": "/WeddingPage/static/media/Lukasz.771ee060593313987b83.jpg",
+    "static/media/Kamila.jpg": "/WeddingPage/static/media/Kamila.9a3ece9a066c8fb65cc1.jpg",
+    "static/media/1.jpg": "/WeddingPage/static/media/1.32faa134d5199981e9a9.jpg",
+    "static/media/2.jpg": "/WeddingPage/static/media/2.2e964f5c815b7d6f28cf.jpg",
+    "static/media/BG Desktop.png": "/WeddingPage/static/media/BG Desktop.d8f5e4ea21b56dcd2b31.png",
+    "static/media/image3.png": "/WeddingPage/static/media/image3.6462674af1f930e00924.png",
+    "static/media/5.jpg": "/WeddingPage/static/media/5.934a4928e47aa5dc61da.jpg",
+    "static/media/BGpink.png": "/WeddingPage/static/media/BGpink.728b651d4df17dbb7d94.png",
+    "static/media/image1.png": "/WeddingPage/static/media/image1.3818118d4287423b50d7.png",
+    "static/media/7.jpg": "/WeddingPage/static/media/7.2e0edf6442bfefc92ba4.jpg",
+    "static/media/image2.png": "/WeddingPage/static/media/image2.fe21c0d0b60575a6b7e9.png",
+    "static/media/8.jpg": "/WeddingPage/static/media/8.f4a31b088c8376e6ecc9.jpg",
+    "static/media/BG Phone.png": "/WeddingPage/static/media/BG Phone.b1528c426d65aa02d4ae.png",
+    "static/media/lotto.svg": "/WeddingPage/static/media/lotto.4aba0b4a3ea75011e669d487b553c235.svg",
+    "static/media/bus.svg": "/WeddingPage/static/media/bus.f3e214d9fe84ed479e7a55c247e92ed8.svg",
+    "static/media/alko.svg": "/WeddingPage/static/media/alko.11e339ba064d7ef73f713b45bb5362a1.svg",
+    "static/media/flower.svg": "/WeddingPage/static/media/flower.f11a6e557386d2260859fbaec342ba29.svg",
+    "static/media/puzzle.svg": "/WeddingPage/static/media/puzzle.f8b82713bda52657b90b6a46e0c199ee.svg",
+    "static/media/party.svg": "/WeddingPage/static/media/party.f0b20508500c6f9740a9bf47c1cebc99.svg",
+    "index.html": "/WeddingPage/index.html",
+    "static/media/hotel.svg": "/WeddingPage/static/media/hotel.62f163437a37457a8ca99cb55e617695.svg",
+    "main.417e4aa4.css.map": "/WeddingPage/static/css/main.417e4aa4.css.map",
+    "main.46c95255.js.map": "/WeddingPage/static/js/main.46c95255.js.map",
+    "787.6099e038.chunk.js.map": "/WeddingPage/static/js/787.6099e038.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.417e4aa4.css",
+    "static/js/main.46c95255.js"
+  ]
+}
