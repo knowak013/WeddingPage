@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap");
+
+.Wedding-plan {
+  background-image: url(../Assets/BGpink.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  padding: 1.5em;
+}
+.Wedding-plan p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 1em 0 1em 0;
+}

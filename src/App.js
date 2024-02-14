@@ -1,59 +1,38 @@
-import React, { useEffect, useState } from "react";
-import { getBasicHeroInfoByID } from "./requests";
-import "./App.css";
-import Nav from "./Components/Nav/Nav";
-
-const featuredHerosIds = [10, 502, 505];
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Ceremony from "./sections/Ceremony";
+import "./Styles/main.css";
+import CountDown from "./sections/Countdown";
+import WeddingPlan from "./sections/WeddingPlan";
+import OrganizationalMatters from "./sections/OrganizationalMatters";
+import OurStory from "./sections/OurStory";
+import Contact from "./sections/Contact";
 
 function App() {
-  useEffect(() => {
-    fetchAndRenderFeaturedHeros();
-  }, []);
-
-  const [featuredHerosList, setFeaturedHerosList] = useState([]);
-
-  const fetchAndRenderFeaturedHeros = async () => {
-    let heros = [];
-    for (const heroId of featuredHerosIds) {
-      const hero = await getBasicHeroInfoByID(heroId);
-      heros.push(hero);
-    }
-
-    setFeaturedHerosList(heros);
-  };
-
   return (
-    <>
-      <Nav></Nav>
-      <main>
-        <section className="featured">
-          {featuredHerosList.map(({ name, imgUrl, powerstats }) => (
-            <div className="featured_hero">
-              <h2>{name}</h2>
-              <img src={imgUrl} alt={`${name}`} />
-              <div className="featured__hero__stats">
-                <div>
-                  <p>{powerstats.combat}</p>
-                </div>
-                <div>
-                  <p>{powerstats.durability}</p>
-                </div>
-                <div>
-                  <p>{powerstats.inteligence}</p>
-                </div>
-                <div>
-                  <p>{powerstats.speed}</p>
-                </div>
-                <div>
-                  <p>{powerstats.strength}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+    <div>
+      <Navbar />{" "}
+      <div className="wrapper">
+        <section id="Ceremony">
+          <Ceremony />
         </section>
-      </main>
-      <footer></footer>
-    </>
+        <section id="CountDown">
+          <CountDown></CountDown>
+        </section>
+        <section id="WeddingPlan">
+          <WeddingPlan></WeddingPlan>
+        </section>
+        <section id="OrganizationalMatters">
+          <OrganizationalMatters></OrganizationalMatters>
+        </section>
+        <section id="OurStory">
+          <OurStory></OurStory>
+        </section>
+        <section id="Contact">
+          <Contact></Contact>
+        </section>
+      </div>
+    </div>
   );
 }
 

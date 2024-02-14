@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap");
+
+:root {
+  --pink: #cc93a4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gwendolyn;
+  font-size: 20px;
+}
+h2 {
+  margin: 2.3em 0 2.3em 0;
+}
+.container {
+  margin: auto 0;
+}
+header {
+  background: url("../Assets/BG Phone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  display: none;
+}
+nav p {
+  color: #1e1e1e;
+  text-align: center;
+  font-family: Gwendolyn;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 40px */
+  letter-spacing: 2px;
+}
+
+.nav-btn {
+  border: none;
+  background: none;
+  position: absolute;
+  left: 24px;
+  z-index: 100;
+}
+.custom-icon {
+  font-size: 32px;
+}
+
+.responsive-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: white;
+  transform: none;
+  padding-top: 100px;
+  z-index: 100;
+}
+
+.responsive-nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+  color: #1e1e1e;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+  max-width: 100vw;
+}
+
+.responsive-nav p {
+  display: none;
+}
+
+@media only screen and (min-width: 835px) {
+  header {
+    background: url("../Assets/BG Phone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 200px;
+  }
+  .wrapper {
+    /*max-width: 80vw;*/
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  nav a {
+    display: flex;
+    max-width: 152px;
+    text-wrap: wrap;
+  }
+  header {
+    background: url("../Assets/BG Desktop.png");
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-size: cover;
+  }
+
+  nav {
+    width: 1340px;
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav a {
+    color: #000;
+    text-align: center;
+    font-family: Gwendolyn;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%;
+    text-decoration: none;
+  }
+  .title {
+    color: #1e1e1e;
+
+    text-align: center;
+    font-family: Gwendolyn;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 2.8px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+}
+main {
+  margin: 0 auto;
+}
+/*** Say yes **/
+.pink-Rectangle {
+  background: var(--pink);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.pink-Rectangle p {
+  color: #000;
+
+  text-align: center;
+  font-family: Gwendolyn;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+  margin-right: 4vw;
+}
+.say-Yes {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+.kiss-Img img {
+  width: 46vw;
+  position: relative;
+
+  top: -8em;
+}
+.say-Yes div:nth-child(1) {
+  justify-self: end;
+  width: 92vw;
+  z-index: -10;
+  height: 222px;
+}
+
+.say-Yes div:nth-child(2) {
+  justify-self: start;
+}
+/*** Ceremonia**/
+.ceremony h2 {
+  margin-top: 0em;
+}
+section {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 9.5em;
+}
+
+h2 {
+  text-align: center;
+  text-align: center;
+  font-family: Gwendolyn;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90%;
+}
+.ceremony-imgs-with-text {
+}
+.bajka-Imgs {
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 3.3em;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+}
+
+.bajka-Imgs img:nth-child(1) {
+  width: 59vw;
+  justify-self: start;
+}
+
+.bajka-Imgs img:nth-child(2) {
+  position: relative;
+  width: 57vw;
+  top: -50px;
+  right: 0px;
+  z-index: 1000;
+  justify-self: end;
+}
+
+.bajka-Imgs img:nth-child(3) {
+  position: relative;
+  top: -80px;
+  width: 81vw;
+  justify-self: start;
+}
+
+.ceremony p {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 1.6em;
+
+  text-wrap: wrap;
+}
+.ceremony-details {
+  margin-bottom: 1.6em;
+}
+.ceremony-details-elements {
+  margin-top: 1.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.ceremony-details-elements p {
+  text-align: center;
+}
+
+.ceremony-details-elements img {
+  align-items: center;
+}
+
+@media only screen and (min-width: 834px) {
+}
+
+@media only screen and (min-width: 1144px) {
+  .ceremony {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 24px;
+  }
+  .ceremony p:nth-child(1) {
+    width: 30vw;
+    text-wrap: wrap;
+  }
+
+  .ceremony-imgs-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .ceremony-imgs-with-text p {
+    text-align: center;
+    max-width: 25em;
+    margin-right: 6.8vw;
+  }
+
+  .ceremony-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ceremony-details-elements {
+    max-width: 20em;
+    padding: 1em;
+  }
+  .ceremony-details {
+    margin-bottom: 3em;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .bajka-Imgs img:nth-child(1) {
+    width: 28vw;
+  }
+  .bajka-Imgs img:nth-child(2) {
+    width: 27vw;
+  }
+
+  .bajka-Imgs img:nth-child(3) {
+    width: 39vw;
+  }
+}
