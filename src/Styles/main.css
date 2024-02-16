@@ -334,10 +334,10 @@ h2 {
     max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
-    /*margin-top: 7em;*/
-    transform: scale(0.6);
+
+    /*  transform: scale(0.6);*/
     position: relative;
-    top: -14em;
+    top: 5em;
   }
   .pink-Rectangle p {
     margin-left: 500px;
@@ -416,10 +416,15 @@ h2 {
   }
   .ceremony {
     position: relative;
-    top: -40em;
+    top: -17em;
   }
   .wrapper-bottom-part {
     position: relative;
-    top: -20em;
+    top: 3em;
+  }
+  .whole-page {
+    transform: scale(0.75);
+    position: relative;
+    top: -47em;
   }
 }

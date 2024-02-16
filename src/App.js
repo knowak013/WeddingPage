@@ -10,7 +10,7 @@ import Contact from "./sections/Contact";
 
 function App() {
   return (
-    <div>
+    <div className="whole-page">
       <Navbar />{" "}
       <div className="wrapper">
         <section id="Ceremony">
