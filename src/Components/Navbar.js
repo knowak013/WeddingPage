@@ -23,21 +23,21 @@ function Navbar() {
           <a href="#CountDown" onClick={removeResponsiveNavClass}>
             Odliczanie do wesela
           </a>
-          <a href="#Ceremony" onClick={removeResponsiveNavClass}>
+          <a href="#WeddingPlan" onClick={removeResponsiveNavClass}>
             Plan wesela
           </a>
           <p className="title">
             Kamila & Łukasz<br></br>
             12.07.2024
           </p>
-          <a href="#Ceremony" onClick={removeResponsiveNavClass}>
+          <a href="#OrganizationalMatters" onClick={removeResponsiveNavClass}>
             {" "}
             Sprawy organizacyjne
           </a>
-          <a href="#Ceremony" onClick={removeResponsiveNavClass}>
+          <a href="#OurStory" onClick={removeResponsiveNavClass}>
             Historia
           </a>
-          <a href="#Ceremony" onClick={removeResponsiveNavClass}>
+          <a href="#Contact" onClick={removeResponsiveNavClass}>
             Kontakt
           </a>
         </nav>

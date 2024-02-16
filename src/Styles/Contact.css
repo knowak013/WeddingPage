@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap");
 
-h2 {
-  font-size: 64px;
-}
-
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contact-container {
+  margin-top: 6em;
 }
 
 .round-image {
@@ -36,8 +35,7 @@ h2 {
   margin: 1em 0;
 }
 
-
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 875px) {
   .contact {
     flex-direction: row;
     justify-content: center;
@@ -60,14 +58,16 @@ h2 {
     align-items: center;
     margin: auto 1.1em;
   }
+  .contact-container {
+    position: relative;
+    top: -5em;
+  }
 }
 
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 875px) {
   h2 {
-    margin: 2em 2em;
     font-size: 64px;
   }
-  
 
   .contact {
     flex-direction: row;
@@ -87,5 +87,16 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: auto 1.1em;
+  }
+  .contact-container {
+    position: relative;
+    top: -5em;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .contact-container {
+    position: relative;
+    top: -10em;
   }
 }

@@ -26,6 +26,12 @@ h3 {
   border: 1px solid rgba(168, 37, 66, 0.5);
   box-shadow: 0px 0px 1px 0.5px rgba(0, 0, 0, 0.5);
   margin: 1.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Organizational-matters--box :nth-child(1) {
+  margin-top: 0;
 }
 
 .image-with-text-container {
@@ -61,6 +67,18 @@ h3 {
 }
 .small-image-with-text-container {
   margin: 0.5em;
+}
+.Organizational-matters-container {
+  margin-top: 3em;
+}
+@media only screen and (min-width: 875px) {
+  .Organizational-matters-container {
+    position: relative;
+    top: -5em;
+  }
+  .ribbon-Organizational-matters {
+    left: 12em;
+  }
 }
 @media only screen and (min-width: 1000px) {
   .Organizational-matters {
@@ -100,5 +118,12 @@ h3 {
   .Organizational-matters--box {
     max-width: 20em;
     justify-self: center;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .Organizational-matters-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    top: -10em;
   }
 }

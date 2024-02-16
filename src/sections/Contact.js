@@ -2,11 +2,16 @@ import React, { useState, useEffect } from "react";
 import "../Styles/Contact.css";
 import imagKamila from "../Assets/Kamila.jpg";
 import imageLukasz from "../Assets/Lukasz.jpg";
+import ribbon from "../Assets/ribbon.png";
 
 function Contact() {
   return (
-    <div className="container">
-      <h2 className="contact-header">Kontakt</h2>
+    <div className="container contact-container">
+      <div className="header-with-ribbon">
+        <h2 className="contact-header">Kontakt</h2>
+        <img className="ribbon" src={ribbon} alt="ribbon"></img>
+      </div>
+
       <div className="contact">
         <div className="person-container">
           <div className="round-image">

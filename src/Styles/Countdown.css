@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Franklin:wght@400;700&display=swap");
 
-h2 {
-  margin: 2.3em 0 2.3em 0;
-}
 .count-down {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.5em;
+
   /* padding: 0 3.4vw 0 3.4vw;*/
 }
 .container-count-down {
@@ -38,8 +36,24 @@ p {
   font-weight: 400;
   line-height: 90%;
 }
-
+@media only screen and (min-width: 875px) {
+  .container-count-down {
+    position: relative;
+    top: -8em;
+  }
+  .count-down {
+    width: 22.6em;
+  }
+  .ribbon-count-down {
+    left: 11em;
+  }
+}
 @media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1440px) {
+  .container-count-down {
+    top: -15em;
+  }
   .pink-block {
     width: 12em;
     height: 12em;
@@ -56,5 +70,7 @@ p {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
+    width: 47em;
+    transform: scale(0.75);
   }
 }

@@ -16,3 +16,20 @@
   line-height: 100%;
   margin: 1em 0 1em 0;
 }
+.Wedding-plan-container {
+  margin-top: 3em;
+}
+@media only screen and (min-width: 875px) {
+  .Wedding-plan-container {
+    position: relative;
+    top: -7em;
+  }
+  .ribbon-Wedding-plan {
+    left: 6em;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .Wedding-plan-container {
+    top: -15em;
+  }
+}

@@ -8,11 +8,15 @@ import image5 from "../Assets/5.jpg";
 import image6 from "../Assets/6.jpg";
 import image7 from "../Assets/7.jpg";
 import image8 from "../Assets/8.jpg";
+import ribbon from "../Assets/ribbon.png";
 
 function OurStory() {
   return (
-    <div className="container">
-      <h2 className="h2-our-story">Nasza historia</h2>
+    <div className="container our-story-container">
+      <div className="header-with-ribbon">
+        <h2 className="h2-our-story">Nasza historia</h2>
+        <img className="ribbon ribbon-our-story" src={ribbon} alt="ribbon"></img>
+      </div>
       <div className="our-story-images">
         <div className="image-container">
           <img src={image1} alt="wspolne zdjecie" />

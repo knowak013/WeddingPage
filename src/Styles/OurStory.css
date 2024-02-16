@@ -3,7 +3,9 @@
 .h2-our-story {
   margin-bottom: 0;
 }
-
+.our-story-container {
+  margin-top: 3em;
+}
 .our-story {
   display: flex;
   flex-direction: column;
@@ -11,8 +13,9 @@
   align-items: center;
   gap: 0.6em;
   padding: 0.6em;
-  width: 18.75em;
+  /*width: 18.75em;*/
   margin: 0 auto;
+  padding-top: 0em;
 }
 .our-story-images {
   margin-top: 3em;
@@ -24,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 5.2em;
-  width: 18.75em;
+  width: 360px;
 }
 
 .image-container {
@@ -50,9 +53,15 @@ h4 {
 }
 .our-story p {
   font-size: 20px;
+  width: 16.3em;
 }
-
-@media only screen and (min-width: 834px) {
+.our-story {
+  max-width: 34em;
+}
+@media only screen and (min-width: 875px) {
+  .ribbon-our-story {
+    left: 8em;
+  }
   .our-story p {
     font-size: 20px;
   }
@@ -73,9 +82,26 @@ h4 {
     width: 40.7em;
     gap: 0em;
   }
+  .our-story-container {
+    position: relative;
+    top: -3em;
+  }
+  .our-story p {
+    width: 34em;
+  }
+
+  .our-story {
+    max-width: auto;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
+  .our-story p {
+    font-size: 20px;
+  }
+  .our-story p {
+    max-width: auto;
+  }
   .our-story-images {
     margin-top: 3em;
     position: absolute;
@@ -87,5 +113,8 @@ h4 {
     justify-content: center;
     gap: 0em;
     width: 60em;
+  }
+  .our-story-container {
+    top: -10em;
   }
 }

@@ -7,18 +7,22 @@ import placeOutline from "../Assets/place-outline.png";
 import calendar from "../Assets/mdi_calendar.png";
 import clock from "../Assets/mdi_clock-outline.png";
 import MapIframe from "../Components/Map";
+import ribbon from "../Assets/ribbon.png";
 
 function Ceremony() {
   return (
     <div className="ceremony">
-      <h2>Ceremonia</h2>
+      <div className="header-with-ribbon">
+        <h2>Ceremonia</h2>
+        <img className="ribbon ribbon-ceremony" src={ribbon} alt="ribbon"></img>
+      </div>
       <div className="ceremony-imgs-with-text">
         <div className="bajka-Imgs">
           <img className="img1" src={image1} alt="Hotel Bajka" />
           <img src={image2} alt="Hotel Bajka" />
           <img src={image3} alt="Hotel Bajka" />
         </div>
-        <p>
+        <p className="ceremony-desc">
           Ślub i wesele to wydarzenia, które z reguły zdarzają się raz w życiu. Pragniemy, aby ten dzień był wyjątkowy. Chcemy otoczyć się najbliższymi, podzielić się z nimi emocjami, przeżyć te chwile w pięknym otoczeniu i zapamiętać je niczym obraz z bajki. Ale to JEST Bajka. Idealne miejsce na
           nasze bajkowe wesele.
         </p>

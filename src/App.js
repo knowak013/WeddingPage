@@ -16,21 +16,23 @@ function App() {
         <section id="Ceremony">
           <Ceremony />
         </section>
-        <section id="CountDown">
-          <CountDown></CountDown>
-        </section>
-        <section id="WeddingPlan">
-          <WeddingPlan></WeddingPlan>
-        </section>
-        <section id="OrganizationalMatters">
-          <OrganizationalMatters></OrganizationalMatters>
-        </section>
-        <section id="OurStory">
-          <OurStory></OurStory>
-        </section>
-        <section id="Contact">
-          <Contact></Contact>
-        </section>
+        <div class="wrapper-bottom-part">
+          <section id="CountDown">
+            <CountDown></CountDown>
+          </section>
+          <section id="WeddingPlan">
+            <WeddingPlan></WeddingPlan>
+          </section>
+          <section id="OrganizationalMatters">
+            <OrganizationalMatters></OrganizationalMatters>
+          </section>
+          <section id="OurStory">
+            <OurStory></OurStory>
+          </section>
+          <section id="Contact">
+            <Contact></Contact>
+          </section>
+        </div>
       </div>
     </div>
   );

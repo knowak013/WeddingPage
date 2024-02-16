@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Countdown.css";
+import ribbon from "../Assets/ribbon.png";
 
 function CountDown() {
   const weddingDate = new Date("2024-07-12T15:30:00");
@@ -31,7 +32,11 @@ function CountDown() {
 
   return (
     <div className="container-count-down">
-      <h2>Odliczanie do wesela</h2>
+      <div className="header-with-ribbon">
+        <h2>Odliczanie do wesela</h2>
+        <img className="ribbon ribbon-count-down" src={ribbon} alt="ribbon"></img>
+      </div>
+
       <div className="count-down">
         <div className="pink-block">
           <p>

@@ -4,7 +4,9 @@
 :root {
   --pink: #cc93a4;
 }
-
+body {
+  min-width: 100vw;
+}
 * {
   padding: 0;
   margin: 0;
@@ -12,9 +14,7 @@
   font-family: Gwendolyn;
   font-size: 20px;
 }
-h2 {
-  margin: 2.3em 0 2.3em 0;
-}
+
 .container {
   margin: auto 0;
 }
@@ -48,7 +48,7 @@ nav p {
   background: none;
   position: absolute;
   left: 24px;
-  z-index: 100;
+  z-index: 10000;
 }
 .custom-icon {
   font-size: 32px;
@@ -67,7 +67,7 @@ nav p {
   background-color: white;
   transform: none;
   padding-top: 100px;
-  z-index: 100;
+  z-index: 10000;
 }
 
 .responsive-nav a {
@@ -76,7 +76,7 @@ nav p {
   text-decoration: none;
   margin: 20px;
   color: #1e1e1e;
-  color: #000;
+  /*  color: #000;*/
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -99,14 +99,21 @@ nav p {
   .wrapper {
     /*max-width: 80vw;*/
     margin: 0 auto;
+    min-width: 375px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
+  .wrapper {
+  }
   nav a {
     display: flex;
     max-width: 152px;
     text-wrap: wrap;
+    padding: 10px;
+  }
+  nav a:hover {
+    border-bottom: 1px solid black;
   }
   header {
     background: url("../Assets/BG Desktop.png");
@@ -161,7 +168,7 @@ main {
 .pink-Rectangle {
   background: var(--pink);
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
 }
 .pink-Rectangle p {
@@ -173,7 +180,8 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: 90%;
-  margin-right: 4vw;
+  margin-left: 35vw;
+  max-width: 44vw;
 }
 .say-Yes {
   margin-top: 2em;
@@ -197,8 +205,25 @@ main {
   justify-self: start;
 }
 /*** Ceremonia**/
+.ceremony {
+  position: relative;
+}
+.header-with-ribbon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ribbon {
+  position: relative;
+  top: -40px;
+  left: 80px;
+  width: 9.75em;
+}
 .ceremony h2 {
   margin-top: 0em;
+  top: -8em;
+  text-align: center;
 }
 section {
   background-repeat: no-repeat;
@@ -215,12 +240,11 @@ h2 {
   font-weight: 700;
   line-height: 90%;
 }
-.ceremony-imgs-with-text {
-}
+
 .bajka-Imgs {
   width: 100vw;
   margin: 0 auto;
-  margin-top: 3.3em;
+
   display: grid;
   grid-template-columns: repeat(1, 3fr);
 }
@@ -254,7 +278,6 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  margin-top: 1.6em;
 
   text-wrap: wrap;
 }
@@ -278,6 +301,24 @@ h2 {
 }
 
 @media only screen and (min-width: 834px) {
+  .pink-Rectangle p {
+    font-size: 54px;
+  }
+  .say-Yes div:nth-child(1) {
+    height: 360px;
+  }
+  .kiss-Img img {
+    width: 46vw;
+    position: relative;
+
+    top: -15em;
+  }
+  .ceremony {
+    top: -12em;
+  }
+  .ribbon-ceremony {
+    left: 5em;
+  }
 }
 
 @media only screen and (min-width: 1144px) {
@@ -287,6 +328,39 @@ h2 {
   p {
     font-size: 24px;
   }
+}
+@media only screen and (min-width: 1440px) {
+  .say-Yes {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*margin-top: 7em;*/
+    transform: scale(0.6);
+    position: relative;
+    top: -14em;
+  }
+  .pink-Rectangle p {
+    margin-left: 500px;
+    max-width: 60vw;
+  }
+
+  .pink-Rectangle {
+    max-width: 1279px;
+  }
+  .say-Yes div:nth-child(1) {
+    height: 624px;
+  }
+  .kiss-Img img {
+    width: 46vw;
+    position: relative;
+
+    top: -25em;
+    max-width: 666px;
+  }
+  .pink-Rectangle p {
+    font-size: 89px;
+  }
+
   .ceremony p:nth-child(1) {
     width: 30vw;
     text-wrap: wrap;
@@ -303,14 +377,13 @@ h2 {
   .ceremony-imgs-with-text p {
     text-align: center;
     max-width: 25em;
-    margin-right: 6.8vw;
   }
 
   .ceremony-details {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: 80vw;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -321,16 +394,32 @@ h2 {
   .ceremony-details {
     margin-bottom: 3em;
   }
-}
-@media only screen and (min-width: 1440px) {
+  .bajka-Imgs {
+    width: 50%;
+    max-width: 842px;
+    overflow: hidden;
+  }
+  .ceremony-imgs-with-text p {
+    text-align: center;
+  }
+
   .bajka-Imgs img:nth-child(1) {
-    width: 28vw;
+    width: 414px;
   }
   .bajka-Imgs img:nth-child(2) {
-    width: 27vw;
+    left: 3em;
+    width: 401px;
   }
 
   .bajka-Imgs img:nth-child(3) {
-    width: 39vw;
+    width: 562px;
+  }
+  .ceremony {
+    position: relative;
+    top: -40em;
+  }
+  .wrapper-bottom-part {
+    position: relative;
+    top: -20em;
   }
 }
