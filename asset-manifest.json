@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WeddingPage/static/css/main.158327e5.css",
-    "main.js": "/WeddingPage/static/js/main.25af0191.js",
+    "main.css": "/WeddingPage/static/css/main.0387de52.css",
+    "main.js": "/WeddingPage/static/js/main.90354875.js",
     "static/js/787.4ff3cea1.chunk.js": "/WeddingPage/static/js/787.4ff3cea1.chunk.js",
     "static/media/6.jpg": "/WeddingPage/static/media/6.443040fe88066944c827.jpg",
     "static/media/4.jpg": "/WeddingPage/static/media/4.88a98c5f38d01ec56cd6.jpg",
@@ -20,6 +20,7 @@
     "static/media/image2.png": "/WeddingPage/static/media/image2.fe21c0d0b60575a6b7e9.png",
     "static/media/8.jpg": "/WeddingPage/static/media/8.f4a31b088c8376e6ecc9.jpg",
     "static/media/BG Phone.png": "/WeddingPage/static/media/BG Phone.b1528c426d65aa02d4ae.png",
+    "static/media/ribbon.png": "/WeddingPage/static/media/ribbon.ba61b91eee1851f5fca8.png",
     "static/media/lotto.svg": "/WeddingPage/static/media/lotto.4aba0b4a3ea75011e669d487b553c235.svg",
     "static/media/bus.svg": "/WeddingPage/static/media/bus.f3e214d9fe84ed479e7a55c247e92ed8.svg",
     "static/media/alko.svg": "/WeddingPage/static/media/alko.11e339ba064d7ef73f713b45bb5362a1.svg",
@@ -28,12 +29,12 @@
     "static/media/party.svg": "/WeddingPage/static/media/party.f0b20508500c6f9740a9bf47c1cebc99.svg",
     "index.html": "/WeddingPage/index.html",
     "static/media/hotel.svg": "/WeddingPage/static/media/hotel.62f163437a37457a8ca99cb55e617695.svg",
-    "main.158327e5.css.map": "/WeddingPage/static/css/main.158327e5.css.map",
-    "main.25af0191.js.map": "/WeddingPage/static/js/main.25af0191.js.map",
+    "main.0387de52.css.map": "/WeddingPage/static/css/main.0387de52.css.map",
+    "main.90354875.js.map": "/WeddingPage/static/js/main.90354875.js.map",
     "787.4ff3cea1.chunk.js.map": "/WeddingPage/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.158327e5.css",
-    "static/js/main.25af0191.js"
+    "static/css/main.0387de52.css",
+    "static/js/main.90354875.js"
   ]
 }
