@@ -423,6 +423,10 @@ h2 {
     position: relative;
     top: 3em;
   }
+  .say-Yes {
+    transform: scale(0.75);
+    top: -6em;
+  }
   .whole-page {
     transform: scale(0.75);
     position: relative;
