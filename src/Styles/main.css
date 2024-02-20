@@ -207,6 +207,7 @@ main {
 /*** Ceremonia**/
 .ceremony {
   position: relative;
+  top: -6em;
 }
 .header-with-ribbon {
   display: flex;
